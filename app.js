@@ -18,6 +18,6 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-// ** LISTENING TO SERVER
+// ** SERVER LISTENING
 const port = 3000
 app.listen(port, () => console.log(`🏃‍ on port ${port}`));
